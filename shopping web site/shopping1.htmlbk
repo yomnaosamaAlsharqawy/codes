@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="javascript">
+function startTime()
+{
+var today =new Date();
+document.getElementById("txt").innerHTML=today.toLocaleTimeString();
+var t=setTimeout(startTime,500);
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 100pt;
+	color: #CC0000;
+	font-style: italic;
+	font-weight: bold;
+}
+body {
+	background-image: url(Screenshot_2018-04-27-23-19-42-1-1.png);
+}
+.style8 {
+	font-size: 50pt;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	text-transform: capitalize;
+}
+.style10 {font-size: 36pt; color: #000000; }
+.style14 {font-size: 18pt}
+
+
+-->
+</style>
+	<!-- Start css3menu.com HEAD section -->
+
+	<link rel="stylesheet" href="shopping1_files/css3menu0/style.css" type="text/css" /><style type="text/css">
+	._css3m{display:none}.style22 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 36pt;
+}
+.style23 {
+	display: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 36pt;
+}
+    </style>
+
+	<!-- End css3menu.com HEAD section -->
+
+</head>
+
+<body onload="startTime()">
+<p id="txt"></p>
+<div align="center">
+  <p class="style1">Shopping Online</p>
+</div>
+    <div align="left">
+      <!-- Start css3menu.com BODY section -->
+      <span class="style22">option:
+      <input type="checkbox" id="css3menu-switcher" class="c3m-switch-input">
+      </span>
+      <ul class="topmenu style22" id="css3menu0">
+        
+        <li class="switch"></li>
+      </ul>
+    </div>
+<ul class="topmenu style22" id="css3menu0">
+  <li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
+  <li class="toplast">
+  <div align="left"><a href="#" style="width:100px;">option</a>
+	    
+	        <ul>
+	          
+	          <li><a href="shopping2.html">Clothes</a></li>
+	          <li><a href="shopping3.html">Shoes&amp;&amp; Bags</a></li>
+	          <li><a class="pressed" href="shopping4.html">Accessorie</a></li>
+      </ul>
+    </div>
+  </li>
+    </ul>
+<p align="left" class="style23"><a href="http://css3menu.com/">css3 buttons</a> by Css3Menu.com</p>
+    <div align="left">
+      <!-- End css3menu.com BODY section -->
+      </div>
+    <br>
+      </br>
+    </div>
+    <p align="center"><span class="style8"><a href="shopping6.html">make order</a></span></p>
+<form id="form2" name="form2" method="post" action="">
+  <label><span class="style10">your comment:</span>
+  <textarea name="textarea"></textarea>
+  <button type="button" class="style14" onclick="welcome()">OK</button>
+  </label>
+</form>
+<center>
+
+ <a href="homepage.html">
+  <input type="submit" name="Submit" value="Home" />
+</a>
+</center>
+<p align="center">&nbsp;</p>
+<script language="javascript">
+function welcome()
+{
+
+alert("Thank you for your comment");
+
+}
+</script>
+</body>
+</html>
