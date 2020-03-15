@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1519597067 source:c:\documents and settings\m\desktop\ieee\main.cpp
-	<iostream>
-	<math.h>
-
-1519597102 source:f:\ieee\main.cpp
-	<iostream>
-	<math.h>
-
